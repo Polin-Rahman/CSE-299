@@ -10,11 +10,11 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true">
+        android:layout_alignParentStart="true">
 
         <LinearLayout
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
                 <RelativeLayout
@@ -34,13 +34,14 @@
                         android:layout_height="match_parent"
                         android:orientation="horizontal"
                         android:layout_marginTop="145dp"
-                        android:layout_marginLeft="85dp"
+                        android:layout_marginStart="85dp"
                         android:gravity="center">
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
                             android:src="@drawable/icon"
-                            android:layout_gravity="center">
+                            android:layout_gravity="center"
+                            android:contentDescription="TODO">
                         </ImageView>
                         <TextView
                             android:layout_width="wrap_content"
@@ -72,7 +73,7 @@
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
                                 android:gravity="center"
-                                android:layout_marginRight="5dp"
+                                android:layout_marginEnd="5dp"
                                 android:orientation="vertical">
 
                                 <RelativeLayout
@@ -161,7 +162,7 @@
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
                                 android:gravity="center"
-                                android:layout_marginLeft="5dp"
+                                android:layout_marginStart="5dp"
                                 android:orientation="vertical">
 
                                 <RelativeLayout
@@ -173,7 +174,8 @@
                                         android:layout_width="60dp"
                                         android:layout_height="60dp"
                                         android:src="@drawable/coach"
-                                        android:layout_centerInParent="true">
+                                        android:layout_centerInParent="true"
+                                        android:contentDescription="TODO">
                                     </ImageView>
 
                                     <TextView
@@ -210,7 +212,7 @@
                                 android:layout_height="match_parent"
                                 android:layout_weight="1"
                                 android:gravity="center"
-                                android:layout_marginRight="5dp"
+                                android:layout_marginEnd="5dp"
                                 android:orientation="vertical">
 
                                 <RelativeLayout
@@ -222,7 +224,8 @@
                                         android:layout_width="60dp"
                                         android:layout_height="60dp"
                                         android:src="@drawable/question"
-                                        android:layout_centerInParent="true">
+                                        android:layout_centerInParent="true"
+                                        android:contentDescription="TODO">
                                     </ImageView>
 
                                     <TextView
