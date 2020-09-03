@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_monday_detail2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/push"
+                    android:layout_width="155dp"
+                    android:layout_height="51dp"
+                    android:gravity="center"
+                    android:text="Push Up"
+                    android:layout_gravity="center"
+                    android:textAllCaps="true"
+                    android:textColor="#E30B0B"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    app:fontFamily="sans-serif"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.201" />
+
+                <ImageView
+                    android:id="@+id/push_up_imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/push_up" />
+                <TextView
+                    android:id="@+id/push_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:text="@string/pushUp"
+                    />
+
+                <TextView
+                    android:id="@+id/supporting_push"
+                    android:layout_width="wrap_content"
+                    android:layout_height="51dp"
+                    android:gravity="center"
+                    android:text="Supportig Push Up"
+                    android:layout_gravity="center"
+                    android:textAllCaps="true"
+                    android:textColor="#E30B0B"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    app:fontFamily="sans-serif"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.201" />
+
+
+                <ImageView
+                    android:id="@+id/supporting_push_up_imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/supportingpushup" />
+                <TextView
+                    android:id="@+id/supporting_push_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:text="@string/supportingPush"
+                    />
+
+                <TextView
+                    android:id="@+id/squats"
+                    android:layout_width="387dp"
+                    android:layout_height="51dp"
+                    android:gravity="center"
+                    android:text="Squats"
+                    android:textAllCaps="true"
+                    android:textColor="#E30B0B"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    app:fontFamily="sans-serif"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.201" />
+                <ImageView
+                    android:id="@+id/squats_imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/squats" />
+                <TextView
+                    android:id="@+id/squats_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:text="@string/squats" />
+
+                <TextView
+                    android:id="@+id/arms_circles"
+                    android:layout_width="387dp"
+                    android:layout_height="51dp"
+                    android:gravity="center"
+                    android:text="Arms circles"
+                    android:textAllCaps="true"
+                    android:textColor="#E30B0B"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    app:fontFamily="sans-serif"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.201" />
+
+                <ImageView
+                    android:id="@+id/arms_circles_imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/armscircle" />
+                <TextView
+                    android:id="@+id/arms_circles_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:text="@string/armsCircles" />
+
+                <TextView
+                    android:id="@+id/crunches"
+                    android:layout_width="387dp"
+                    android:layout_height="51dp"
+                    android:gravity="center"
+                    android:text="Crunches"
+                    android:textAllCaps="true"
+                    android:textColor="#E30B0B"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    app:fontFamily="sans-serif"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.201" />
+
+                <ImageView
+                    android:id="@+id/crunches_imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/crunches" />
+                <TextView
+                    android:id="@+id/crunches_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:text="@string/crunches">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/bicycles"
+                    android:layout_width="387dp"
+                    android:layout_height="51dp"
+                    android:gravity="center"
+                    android:text="Bicycles"
+                    android:textAllCaps="true"
+                    android:textColor="#E30B0B"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    app:fontFamily="sans-serif"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.201" />
+
+                <ImageView
+                    android:id="@+id/bicycles_imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/bycycles" />
+                <TextView
+                    android:id="@+id/bicyles_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:text="@string/bicycle">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/lunges"
+                    android:layout_width="387dp"
+                    android:layout_height="51dp"
+                    android:gravity="center"
+                    android:text="Lunges"
+                    android:textAllCaps="true"
+                    android:textColor="#E30B0B"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    app:fontFamily="sans-serif"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.201" />
+
+                <ImageView
+                    android:id="@+id/lunges_imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/lunges" />
+                <TextView
+                    android:id="@+id/lunges_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:text="@string/lunges">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/high_knees"
+                    android:layout_width="387dp"
+                    android:layout_height="51dp"
+                    android:gravity="center"
+                    android:text="High knees"
+                    android:textAllCaps="true"
+                    android:textColor="#E30B0B"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"
+                    app:fontFamily="sans-serif"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.201" />
+
+                <ImageView
+                    android:id="@+id/high_knees_imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/highknees" />
+                <TextView
+                    android:id="@+id/high_kness_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:text="@string/knees">
+                </TextView>
+
+
+
+
+
+
+            </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

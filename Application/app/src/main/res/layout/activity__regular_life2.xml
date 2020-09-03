@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_RegularLife2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+
+
+            <Button
+                android:id="@+id/help"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/button_rounded"
+                android:layout_marginLeft="270dp"
+                android:backgroundTint="#ffffff"
+                android:drawableBottom="@drawable/help"
+                android:textAllCaps="false"
+                android:textStyle="normal" />
+
+
+            <Button
+                android:id="@+id/pre-workout"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_height="70dp"
+                android:text="Pre-Workout"
+                android:background="@color/mintLight"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:onClick="btn_preWorkout"
+                 />
+
+
+
+            <Button
+                android:id="@+id/monday"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/mintLight"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:text="Monday"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:onClick="btn_monday"/>
+
+            <Button
+                android:id="@+id/tuesday"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/mintLight"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:text="Tuesday"
+                android:textAllCaps="false"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/wednesday"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/mintLight"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:text="Wednesday"
+                android:textAllCaps="false"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/thursday"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/mintLight"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:text="Thursday"
+                android:textAllCaps="false"
+                android:textSize="20sp"/>
+
+            <Button
+                android:id="@+id/friday"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/mintLight"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:text="Friday"
+                android:textAllCaps="false"
+                android:textSize="20sp" />
+            <Button
+                android:id="@+id/saturday"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/mintLight"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:text="Saturday"
+                android:textAllCaps="false"
+                android:textSize="20sp"/>
+
+
+            <Button
+                android:id="@+id/sunday"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/mintLight"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:text="Sunday"
+                android:textAllCaps="false"
+                android:textSize="20sp" />
+
+
+            <Button
+                android:id="@+id/relax"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/mintLight"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:text="Relax or Pain release"
+                android:textAllCaps="false"
+                android:textSize="20sp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

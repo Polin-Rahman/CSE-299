@@ -1,3 +1,97 @@
 <resources>
     <string name="app_name">Dietary</string>
+
+    <string name="fitnessAssi">Choose your Fitness guideline based on your Life Style !</string>
+
+    <string name="boat_pose"> Step 1: Sit the floor with your hands a little behind your hips\n
+                                       and your legs straight in front of you.\n\n
+                             Step 2: Lift your feet off the floor slowly so that the thigs are\n
+                                       angled about 45-50 degrees relative to the floor.\n\n
+                             Step 3: stretch you arms alongside the legs, parallel to each other\n
+                                      and the floor.\n\n
+                             Step 4: Keep the lower belly relatively flat and breathe easily.\n\n
+                             Step 5: Stay this position for about 50-60 seconds.\n\n</string>
+
+    <string name="warning1">
+        • If you have any injury or health issue please contact your doctor before starting with this plan.\n\n
+        • Don’t rush during workout time. At beginner level, ist’s ok to take much time than the given one.\n\n
+        • It’s ok to skip during workout time for any emergency.\n\n
+        • In the first few weeks body pain is normal. You can check body releasing stretching, which is also provided.But if you some serious pain or injury then contact a doctor as early as possible. \n\n
+        • Don’t try exercises in front of children.\n\n
+        • For better results, you need to be regular with this plan along with food habits.
+    </string>
+
+    <string name="monday">
+        Please first complete the Pre-Workout part then start.\n\n
+        • 5 pushups / supporting pushup\n\n
+        • 10 squats\n\n
+        • 20 sec. Arms circles\n\n
+        • 20 sec. Reverse arms circles\n\n
+        • 15 crunches\n\n
+        • 15 bicycles\n\n
+        • 10 lunges(each leg)\n\n
+        • 15 sec high knees\n\n
+    </string>
+
+    <string name="bigenear">
+        An at-home Body-Weight workout routine for every day of the week.\n\n
+            Leve: Bigenear\n
+            Plan type: Weekly\n
+            Duration: 30-40 mins\n
+    </string>
+
+    <string name="pushUp">
+         1.Assume a face-down prone position on the floor.Keep your feet together.Your weight should be on your chest.\n
+        • Position hands palms-down on the floor, approximately shoulder-width apart.They should be about next to your shoulders, with your elbows pointed towards your toes.\n
+        • if you are on a relatively cushioned surface, such as a carpeted floor,you may also support yourself on your fists between the first and second knuckles for a greater challenge. If you are on a less forgiving surface, consider investing in some push-up grips,(they look like handles you put on the floor).\n
+        • Curl your toes upward (towards your head). The balls of your feet should touch the ground.\n\n
+        2. Raise yourself using your arms. At this point, your weight should be supported by your hands and the balls of your feet. Make a straight line from your head to your heels, and contract your abdominals to keep your hips from sagging. This position is called a plank, which is used for various exercises.[1] This is the beginning and the end position of a single push up.\n
+    </string>
+
+    <string name="supportingPush">
+        1.Stand with feet under hips, arm’s length away from a wall.\n
+        2. Plant both palms on the wall, with wrists in line with your shoulders and fingers pointed at the ceiling.\n
+        3.Screw pinkies into the wall to activate lats and brace core (by preparing for a gut punch). Then, pull up on quad muscles and clench butt cheeks like you’re holding in a fart.\n
+        4.Maintaining this tight AF position, inhale and bend elbows straight back until your forehead or nose nearly boinks the wall.\n
+        5.Exhale as you press the wall away and return to the starting position. That’s 1 rep.\n
+    </string>
+    
+    <string name="squats">
+        1. Maintaining a wide stance, place your feet squarely under the bar and lift it from the rack using the legs. Keep the weight centered; do not lift from your heels or toes.\n
+        2. Slowly bend your knees while keeping your torso erect. Do not lean forward. Keep your hips under the bar at all times. At the bottom of your movement, the angles of your knee joint and hip joint are nearly equal. Never relax or drop to the bottom position. Maintain constant, slow, and controlled muscle tension. Inhale as you lower.\n
+        3. Slowly return to starting position while keeping your torso and back erect and hips under the bar. Exhale as you push through your heels and stand tall.\n
+        4. Repeat as many times as desired for a set. Try one to three sets of six to 10 squats to start.
+    </string>
+    
+    <string name="armsCircles">
+        1. Stand with your feet shoulder-width apart and extend your arms parallel to the floor.\n
+        2. Circle your arms forward using small controlled motions, gradually making the circles bigger until you feel a stretch in your triceps.\n
+        3. Reverse the direction of the circles after about 10 seconds.\n
+    </string>
+
+    <string name="crunches">
+        1. Lie down on your back. Plant your feet on the floor, hip-width apart. Bend your knees and place your arms across your chest. Contract your abs and inhale.\n
+        2. Exhale and lift your upper body, keeping your head and neck relaxed.\n
+        3. Inhale and return to the starting position.\n
+    </string>
+
+    <string name="bicycle">
+        1. Lie on your back, lift your shoulders off the mat and raise both legs.\n
+        2. Bring one knee and the opposing elbow close to each other by crunching to one side, and fully extend the other leg.\n
+        3. Return to the starting position and then crunch to the opposite side.\n
+        4. Repeat until the set is complete.\n
+    </string>
+    
+    <string name="lunges">
+        1. Maintaining a wide stance, place your feet squarely under the bar and lift it from the rack using the legs. Keep the weight centered; do not lift from your heels or toes.\n
+        2. Slowly bend your knees whileStand with your feet hip-width apart, keep your back straight, your shoulders back and your abs tight.\n
+        3. Take a step forward and slowly bend both knees, until your back knee is just above the floor.\n
+        4. Stand back up and repeat the movement.\n
+        5. Alternate legs until set is complete.\n
+    </string>
+
+    <string name="knees">
+        1. Stand with your feet hip-width apart. Lift up your left knee to your chest.\n
+        2. Switch to lift your right knee to your chest. Continue the movement, alternating legs and moving at a sprinting or running pace\n
+    </string>
 </resources>

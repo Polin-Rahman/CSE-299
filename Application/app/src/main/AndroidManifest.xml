@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".mainLoginActivity"></activity>
+        <activity android:name=".activity_mon_selectSet"></activity>
+        <activity android:name=".activity_monday_detail2" />
+        <activity android:name=".activity_preWorkout_detail" />
+        <activity android:name=".activity_monday_detail" />
+        <activity android:name=".activity_RegularLife2" />
+        <activity android:name=".activity_RegularLife1" />
+        <activity android:name=".mainLoginActivity" />
         <activity android:name=".SignUpActivity" />
         <activity android:name=".LogInActivity" />
         <activity android:name=".Main2Activity" />
