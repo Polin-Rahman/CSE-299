@@ -1,6 +1,8 @@
 package com.example.dietary;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -23,7 +25,11 @@ import com.google.cloud.dialogflow.v2.SessionsClient;
 import com.google.cloud.dialogflow.v2.SessionsSettings;
 import com.google.cloud.dialogflow.v2.TextInput;
 import com.google.common.collect.Lists;
+
+import java.io.BufferedReader;
 import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.Reader;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
@@ -42,7 +48,7 @@ public class UserAssiActivity extends AppCompatActivity implements BotReply {
     private SessionsClient sessionsClient;
     private SessionName sessionName;
     private String uuid = UUID.randomUUID().toString();
-    private String TAG = "mainactivity";
+    private String TAG = "activity_user_assi";
 
 
     @Override
@@ -79,6 +85,8 @@ public class UserAssiActivity extends AppCompatActivity implements BotReply {
 
     private void setUpBot() {
         try {
+
+
             InputStream stream = this.getResources().openRawResource(R.raw.credential);
             GoogleCredentials credentials = GoogleCredentials.fromStream(stream)
                     .createScoped(Lists.newArrayList("https://www.googleapis.com/auth/cloud-platform"));

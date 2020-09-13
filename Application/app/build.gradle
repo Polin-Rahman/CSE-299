@@ -10,6 +10,7 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
     }
     buildTypes {
         release {
@@ -17,6 +18,14 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/INDEX.LIST'
+    }
+
+
+
 }
 
 dependencies {
@@ -33,4 +42,8 @@ dependencies {
     //dialogFlow
     implementation 'com.google.cloud:google-cloud-dialogflow:2.1.0'
     implementation 'io.grpc:grpc-okhttp:1.30.0'
+
+    implementation 'com.android.support:multidex:1.0.3'
+
 }
+
