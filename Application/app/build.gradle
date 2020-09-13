@@ -45,5 +45,11 @@ dependencies {
 
     implementation 'com.android.support:multidex:1.0.3'
 
+    //firebase
+    implementation 'com.google.firebase:firebase-analytics:17.2.2'
+    implementation 'com.google.firebase:firebase-auth:19.3.2'
+
+
 }
 
+apply plugin: 'com.google.gms.google-services'
