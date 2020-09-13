@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.dietary">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -11,7 +11,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".adapter_message_one"></activity>
+        <activity android:name=".into_BusyLife"></activity>
+        <activity android:name=".activity_bow" />
+        <activity android:name=".activity_boat" />
+        <activity android:name=".activity_BusyLifeDetail" />
+        <activity android:name=".activity_BusyLife" />
+        <activity android:name=".adapter_message_one" />
         <activity android:name=".BMI" />
         <activity android:name=".activity_mon_selectSet" />
         <activity android:name=".activity_monday_detail2" />

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".into_BusyLife">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/meditation"
+        android:layout_marginTop="20dp">
+    </ImageView>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/mint"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:paddingLeft="110dp"
+        android:text="Welcome">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/busyIntro">
+    </TextView>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Let's start"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="110dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:backgroundTint="@color/mint"
+        android:background="@drawable/button_rounded"
+        android:onClick="btn_busyIntro">
+    </Button>
+
+</LinearLayout>

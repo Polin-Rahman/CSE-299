@@ -18,4 +18,8 @@ public class FitnessAssiActivity extends AppCompatActivity {
     public void btn_RegularLife(View view) {
         startActivity(new Intent(getApplicationContext(),activity_RegularLife1.class));
     }
+
+    public void btn_BusyLife(View view) {
+        startActivity(new Intent(getApplicationContext(),into_BusyLife.class));
+    }
 }

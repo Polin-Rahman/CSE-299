@@ -50,7 +50,8 @@
             android:text="Busy Life based"
             android:textAllCaps="false"
             android:textSize="20sp"
-            android:textStyle="normal" />
+            android:textStyle="normal"
+            android:onClick="btn_BusyLife"/>
 
         <Button
             android:id="@+id/help"
