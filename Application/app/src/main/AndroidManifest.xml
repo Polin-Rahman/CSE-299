@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".into_BusyLife"></activity>
+        <activity android:name=".overView"></activity>
+        <activity android:name=".into_BusyLife" />
         <activity android:name=".activity_bow" />
         <activity android:name=".activity_boat" />
         <activity android:name=".activity_BusyLifeDetail" />

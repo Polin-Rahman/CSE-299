@@ -4,7 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".UserProfileActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/user"
+        android:padding="10dp"
+        >
+    </ImageView>
+
+    <Button
+        android:id="@+id/ediProfile"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:paddingRight="30dp"
+        android:layout_height="70dp"
+        android:background="#ffffff"
+        android:drawableRight="@drawable/editpro"
+        android:text="Edit Profile"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:textStyle="normal" />
 
     <Button
         android:id="@+id/logout"
@@ -18,6 +41,18 @@
         android:textAllCaps="false"
         android:textSize="25sp"
         android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/help"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="270dp"
+        android:background="@drawable/button_rounded"
+        android:backgroundTint="#ffffff"
+        android:drawableBottom="@drawable/help"
+        android:textAllCaps="false"
+        android:textStyle="normal"/>
 
 
 

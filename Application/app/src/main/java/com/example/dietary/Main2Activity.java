@@ -36,7 +36,7 @@ public class Main2Activity extends AppCompatActivity {
             @Override
             public void onClick(View v)
             {
-                Intent intent = new Intent(Main2Activity.this,BMI.class);
+                Intent intent = new Intent(Main2Activity.this,NutritionAssiActivity.class);
                 startActivity(intent);
             }
         });

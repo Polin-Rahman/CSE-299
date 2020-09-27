@@ -24,7 +24,7 @@ public class LogInActivity extends AppCompatActivity {
     }
 
     public void btn_overView(View view) {
-        startActivity(new Intent(getApplicationContext(),Main2Activity.class));
+        startActivity(new Intent(getApplicationContext(),overView.class));
     }
 
     public void btn_mainLogin(View view) {

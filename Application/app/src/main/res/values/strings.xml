@@ -146,4 +146,13 @@
         Here is the solution of your Busy Life workout problem. Go with every Yoga pose regularly and maintain 1 min counting.\n\n
         Try to continue with 3-5 repetitions. Relax and cool during Yoga.
     </string>
+
+    <string name="selectSet">
+       Please select your workout set according to your range. For any confusion click on LIVE CHAT option.\n\n
+          • 1x for first 3 weeks \n\n
+          • 2x for next 2 weeks\n\n
+          • 3x-5x from 6th week or more\n\n
+
+        Save your set to get Regular Reminder Notification.\n\n
+    </string>
 </resources>

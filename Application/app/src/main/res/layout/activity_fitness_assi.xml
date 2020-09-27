@@ -63,13 +63,8 @@
             android:backgroundTint="#ffffff"
             android:drawableBottom="@drawable/help"
             android:textAllCaps="false"
-            android:textStyle="normal" />
-
-
-
-
-
-
+            android:textStyle="normal"
+            android:onClick="btn_helpBot"/>
 
     </LinearLayout>
 

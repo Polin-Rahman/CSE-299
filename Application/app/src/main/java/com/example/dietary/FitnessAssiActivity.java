@@ -22,4 +22,8 @@ public class FitnessAssiActivity extends AppCompatActivity {
     public void btn_BusyLife(View view) {
         startActivity(new Intent(getApplicationContext(),into_BusyLife.class));
     }
+
+    public void btn_helpBot(View view) {
+        startActivity(new Intent(getApplicationContext(),UserAssiActivity.class));
+    }
 }

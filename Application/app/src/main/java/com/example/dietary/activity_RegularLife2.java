@@ -21,4 +21,8 @@ public class activity_RegularLife2 extends AppCompatActivity {
     public void btn_monday(View view) {
         startActivity(new Intent(getApplicationContext(),activity_monday_detail.class));
     }
+
+    public void btn_helpBot(View view) {
+        startActivity(new Intent(getApplicationContext(),UserAssiActivity.class));
+    }
 }
