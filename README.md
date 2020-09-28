@@ -6,7 +6,9 @@
 ## Project Description :
     Its mainly nutrition & fitness guideline providing android application. 
     Used Firebase Firestore for cloud services like authentication, store and retrive user personal data.
-    Implemented Chatbot using Dialogflow (NLP framework) API. Realistic UI for better User Experiance.
+    Contained with BMI calculator, food recommender(on progress), complete fitness guideline and guided Yoga 
+    with time counter. For user guideline manual & basic Q/A,implemented Chatbot using Dialogflow (NLP framework) API.
+    Realistic UI for better User Experiance.
 #### Submitted to :
     Dr. Tanzilur Rahman
                                                    
